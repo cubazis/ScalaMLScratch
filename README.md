@@ -9,8 +9,8 @@ Scala scikit-learn is a personal project to implement and the common 'data scien
 
 # Motivation
 
-1.  Learn functional programming specifically for Machine Learning
-2.  Apply and write ML algorithms in Scala from Scratch
+1.  Learn functional programming and apply it specifically for Machine Learning
+2.  Apply and write ML algorithms in Scala from Scratch...
 
 # Installation
 
