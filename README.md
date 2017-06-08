@@ -1,11 +1,11 @@
 
-| Project          | Created    | Updated    | Version |
-|------------------|------------|------------|---------|
-| Scala - sklearn  | 08/06/2016 | 08/06/2017 | 0.1     |
+| Project                  | Created    | Updated    | Version |
+|--------------------------|------------|------------|---------|
+| Scala - ML from Scratch  | 08/06/2016 | 08/06/2017 | 0.1     |
 
-# Scala - scikit-learn (TO BE RENAMED)
+# Scala - ML from Scratch
 
-Scala scikit-learn is a personal project to implement and the common 'data science' algorithms in much the same way scikit-learn has done. 
+Scala - ML from Scratch is a personal project to implement and the common 'data science' algorithms in much the same way scikit-learn for Python has done. 
 
 # Motivation
 
