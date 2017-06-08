@@ -5,12 +5,12 @@
 
 # Scala - scikit-learn (TO BE RENAMED)
 
-Scala scikit-learn is a personal project to implement and the common 'data science' algorithms in much the same way scikit-learn. 
+Scala scikit-learn is a personal project to implement and the common 'data science' algorithms in much the same way scikit-learn has done. 
 
 # Motivation
 
-1.  Learn functional programming specifically for Machine Learning, is it possible?
-2.  Apply and write ML in Scala from Scratch
+1.  Learn functional programming specifically for Machine Learning
+2.  Apply and write ML algorithms in Scala from Scratch
 
 # Installation
 
