@@ -1,11 +1,12 @@
 package ScalaLearn.Testing
 
+import org.nd4j.linalg.factory.Nd4j
 import org.nd4s.Implicits._
 
 /**
   * Simple Array Manipulation Testing Script
   */
-object SimpleArray extends App {
+object ArrayManipulationTesting extends App {
 
   // Creating a simple array
   val arr = (1 to 9).asNDArray(3, 3)
@@ -22,5 +23,9 @@ object SimpleArray extends App {
 
   // Show part of the result
   println(arr4(8, 0 -> 100).meanNumber())
+
+  // Stacking Arrays
+  println(Nd4j.hstack(arr, arr))
+  //  println(arr dot arr)
 
 }
