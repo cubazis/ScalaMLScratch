@@ -9,7 +9,7 @@ import org.nd4s.Implicits._
 /**
   * Example: Ridge Polynomial Regression
   */
-object RidgePolynomialRegression {
+object RidgePolynomialRegression extends App {
 
   // Load the Data
   val data: List[Array[Double]] = readData(
