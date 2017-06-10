@@ -28,7 +28,7 @@ sealed class Regression(nIter: Int,
       Nd4j.randn(shape(1), 1)
   }
 
-  /** Train function
+  /** Train method
     *
     * @param x  Training features nd-array
     * @param y  Target column
@@ -38,7 +38,7 @@ sealed class Regression(nIter: Int,
     fit(x: INDArray, y: INDArray)
   }
 
-  /** Fit Training Data
+  /** Fit Method
     *
     * @param x  Training features nd-array
     * @param y  Target column
@@ -49,7 +49,7 @@ sealed class Regression(nIter: Int,
     gradientDescent(trainX, y, getWeights(shape), nIter)
   }
 
-  /** Adding the Bias and return the shape with result
+  /** Appending Bias
     *
     * @param x  Training features nd-array
     * @return   Training features nd-array w or w/o a bias column vector
@@ -60,7 +60,7 @@ sealed class Regression(nIter: Int,
     (shape, trainX)
   }
 
-  /** Apply the Training Dataset
+  /** Gradient Decent
     *
     * @param x  Training features nd-array
     * @param y  Target column
@@ -82,7 +82,7 @@ sealed class Regression(nIter: Int,
     }
   }
 
-  /**
+  /** Predict method
     *
     * @param x        Training features nd-array
     * @param weights  Model Weights
@@ -137,7 +137,7 @@ class Polynomial(factor: Double,
 
 }
 
-/**
+/** Ridge Polynomial Regression Class
   *
   * @param factor           Polynomial transformation factor
   * @param nIter            Number of Iterations to run for
