@@ -102,7 +102,7 @@ sealed class Regression(nIter: Int,
   * @param learnRate        Learning Rate
   * @param identityCol      Boolean flag to add or not add bias
   */
-class LinearRegression(nIter: Int, learnRate: Double, identityCol: Boolean)
+final class LinearRegression(nIter: Int, learnRate: Double, identityCol: Boolean)
     extends Regression(nIter, learnRate, regularisation = 0, identityCol)
 
 /** Ridge Regression Class
@@ -112,7 +112,7 @@ class LinearRegression(nIter: Int, learnRate: Double, identityCol: Boolean)
   * @param regularisation   Regularisation factor
   * @param identityCol      Boolean flag to add or not add bias
   */
-class RidgeRegression(nIter: Int,
+sealed class RidgeRegression(nIter: Int,
                       learnRate: Double,
                       regularisation: Double,
                       identityCol: Boolean)
@@ -125,7 +125,7 @@ class RidgeRegression(nIter: Int,
   * @param learnRate        Learning Rate
   * @param identityCol      Boolean flag to add or not add bias
   */
-class Polynomial(factor: Double,
+sealed class Polynomial(factor: Double,
                  nIter: Int,
                  learnRate: Double,
                  identityCol: Boolean)
@@ -145,7 +145,7 @@ class Polynomial(factor: Double,
   * @param regularisation   Regularisation factor
   * @param identityCol      Boolean flag to add or not add bias
   */
-class RidgePolynomial(factor: Double,
+final class RidgePolynomial(factor: Double,
                       nIter: Int,
                       learnRate: Double,
                       regularisation: Double,

@@ -28,11 +28,11 @@ object RidgePolynomialRegression extends App {
   val trainY: INDArray = y.flatten.toArray.asNDArray(nRows, 1)
 
   // Model params
-  val iterations = 10000
-  val polynomialFactor = 2
-  val learningRate = 0.00001
-  val regParam = 0.7
-  val bias = false
+  val iterations = 20000
+  val polynomialFactor = 0.3
+  val learningRate = 0.0000001
+  val regParam = 0.001
+  val bias = true
 
   // Instantiate the Model: Ridge Polynomial Regression
   val model4 = new RidgePolynomial(polynomialFactor,
