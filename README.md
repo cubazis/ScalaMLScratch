@@ -5,16 +5,18 @@
 
 # Scala - ML from Scratch
 
-Scala - ML from Scratch is a personal project to implement and the common 'data science' algorithms in much the same way scikit-learn for Python has done. 
+Scala - ML from Scratch is a personal project to implement and the common 'data science' algorithms from scratch.
+ 
+SMILE is the recommended ML library. 
 
 # Status
 
-| Algorithm        | Class      | Update Date | Demo Script          |
-|------------------|------------|-------------|----------------------|
-| LinearRegression | Regression | 10/6/17     | DemoRegression.scala |
-| RidgeRegression  | Regression | 10/6/17     | DemoRegression.scala |
-| Polynomial       | Regression | 10/6/17     | DemoRegression.scala |
-| RidgePolynomial  | Regression | 10/6/17     | DemoRegression.scala |
+| Algorithm        | Class      | Update Date | Demo Script                                                        |
+|------------------|------------|-------------|--------------------------------------------------------------------|
+| LinearRegression | Regression | 10/6/17     | src/main/scala/ScalaLearn/Examples/SimpleLinearRegression.scala    |
+| RidgeRegression  | Regression | 10/6/17     | src/main/scala/ScalaLearn/Examples/RidgeRegression.scala           |
+| Polynomial       | Regression | 10/6/17     | src/main/scala/ScalaLearn/Examples/Polynomial.scala                |
+| RidgePolynomial  | Regression | 10/6/17     | src/main/scala/ScalaLearn/Examples/RidgePolynomialRegression.scala |
 
 Next Up:
 
